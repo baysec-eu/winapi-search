@@ -10,10 +10,10 @@ export const metadata: Metadata = {
   },
   keywords: ['WinAPI', 'search', 'index', 'functions'],
   authors: [
-    { name: 'Krystian Bajno', url: 'https://github.com/krystianbajno' }, 
+    { name: 'Krystian Bajno', url: 'https://github.com/baysec-eu' }, 
     { name: "Artideusz", url: "https://github.com/Artideusz" }
   ],
-  metadataBase: new URL('https://github.com/krystianbajno/winapi-search'),
+  metadataBase: new URL('https://github.com/baysec-eu/winapi-search'),
 };
 
 export default function RootLayout({

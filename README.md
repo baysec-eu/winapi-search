@@ -1,5 +1,5 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/krystianbajno/winapi-search/badge)](https://www.codefactor.io/repository/github/krystianbajno/winapi-search)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b61eabb446704e6d831124dec4797fdb)](https://app.codacy.com/gh/krystianbajno/winapi-search/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![CodeFactor](https://www.codefactor.io/repository/github/baysec-eu/winapi-search/badge)](https://www.codefactor.io/repository/github/baysec-eu/winapi-search)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b61eabb446704e6d831124dec4797fdb)](https://app.codacy.com/gh/baysec-eu/winapi-search/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 # WinAPI Search
 
@@ -19,8 +19,8 @@
 ## Collection
 This project works together with the [winapi_to_json](https://github.com/Artideusz/winapi_to_json) tool by **Artideusz**, which collects and formats WinAPI DLL metadata and exposes it as a daily refreshed endpoint. It gathers function metadata from Microsoft’s official repository [win32metadata](https://github.com/microsoft/win32metadata) and Rust [symbol bindings](https://github.com/microsoft/windows-rs/raw/master/crates/libs/bindgen/default/Windows.Win32.winmd) and makes them accessible through a refreshed GitHub release.
 
-For undocumented API's, I've created a collector that works like `winapi_to_json`, but uses various sources - [undocumented-winapi-json](https://github.com/krystianbajno/undocumented-winapi-json).
+For undocumented API's, I've created a collector that works like `winapi_to_json`, but uses various sources - [undocumented-winapi-json](https://github.com/baysec-eu/undocumented-winapi-json).
 
 ## Credits
-- **Krystian Bajno** - winapi-search, [undocumented-winapi-json](https://github.com/krystianbajno/undocumented-winapi-json)
+- **Krystian Bajno** - winapi-search, [undocumented-winapi-json](https://github.com/baysec-eu/undocumented-winapi-json)
 - **Artideusz** - [winapi_to_json](https://github.com/Artideusz/winapi_to_json)
