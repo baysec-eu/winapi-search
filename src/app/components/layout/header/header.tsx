@@ -19,7 +19,13 @@ const Header = () => {
       <header className={styles.header}>
         <div className={styles.headerTop}>
           <div className={styles.headerLeft}>
-            <h1 className={styles.logo}><a href="/">WinAPI <span className={styles.search}>Search</span></a></h1>
+            <h1 className={styles.logo}>
+              <a href="https://baysec.eu"> 
+                <img className={styles.baysecLogo} src="/images/logo-darkmode.svg"></img>
+              </a>
+            </h1>
+            <div className={styles.search}>WinAPI Search</div>
+
           </div>
           <div className={styles.headerCenter}>
             <input
@@ -33,7 +39,7 @@ const Header = () => {
             <ToggleSyscalls isChecked={showSyscalls} onToggle={handleToggleSyscalls}/>
           </div>
           <div className={styles.headerRight}>
-            <a href="https://github.com/krystianbajno/winapi-search">
+            <a href="https://github.com/baysec-eu/winapi-search">
               <img className={styles.githubLogo} src="/images/github-mark-white.svg" />
             </a>
           </div>

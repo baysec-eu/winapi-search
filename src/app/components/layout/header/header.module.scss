@@ -35,7 +35,11 @@
     color: $logoSearch;
 }
 
-.headerLeft {}
+.headerLeft {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
 
 .headerCenter {
     display: flex;
@@ -67,6 +71,10 @@
 
 .githubLogo {
     width: 40px;
+    height: 40px;
+}
+
+.baysecLogo {
     height: 40px;
 }
 
